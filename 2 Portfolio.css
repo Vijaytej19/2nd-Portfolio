@@ -1,0 +1,99 @@
+.navigation{
+    border: 1px solid black;
+    top: 0%;
+    left: 0%;
+    height: 60px;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    background-image: url(photo-1597200381847-30ec200eeb9a.avif); 
+}
+.list1{
+    float: left;
+    list-style: none;
+    font-size: 23px;
+    padding: 1px 30px;
+    color: black;
+}
+.list1:hover{
+    border: 1px solid black;
+    border-radius: 25px;
+    height: auto;
+    width: auto;
+    background: transparent;
+    backdrop-filter: blur(15px);
+    transform: translateY(-5px);
+}
+#header{
+    border: 0px;
+    width: 100%;
+    position: absolute;
+    height:350px;
+    margin-top: 53px;
+    left: 0%;
+    display: flex;
+}
+body{
+    background-image: url(photo-1597200381847-30ec200eeb9a.avif);
+    background-position: center;
+    background-size: cover;
+   
+}
+.image{
+    border: 2px solid black;
+    margin: 21px;
+    height: 300px;
+    width: 200px;
+    border-radius: 3px;
+}
+.list2{
+    list-style: none;
+    font-size: 30px;
+    padding-top: 10px;
+    margin-top: 36px;
+}
+.list3{
+    list-style: none;
+    font-size: 30px;
+    margin-top: 64px;
+    padding-left: 10px;
+}
+.list4{
+    list-style: none;
+    margin-top: 27px;
+}
+.social{
+    padding-left:  82px;
+    margin-top: 15px;
+}
+.social:hover{
+    transform: translateY(-14px);
+    cursor: pointer;
+}
+.title{
+    text-align: center;
+}
+#Education{
+    position: absolute;
+    top: 59%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    left: 15%;
+    border: 1px solid black;
+    width: 1000px;
+    border-radius: 50px;
+    background-color: white; 
+}
+.table{
+    border: 1px solid black;
+    height: 350px;
+    width: 700px;
+    text-align: center;
+    font-size: 25px;
+}
+.list5{
+    font-size: 25px;
+    padding-top: 15px;
+}
